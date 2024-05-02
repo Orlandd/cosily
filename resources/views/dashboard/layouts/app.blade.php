@@ -11,11 +11,11 @@
 
 <body>
     @include('dashboard.layouts.navbar')
-    {{-- <div id="app">
-        <main class="py-4">
+    <div id="app">
+        <main class="lg:ps-72 lg:my-0 px-3">
             @yield('content')
         </main>
-    </div> --}}
+    </div>
 </body>
 
 </html>

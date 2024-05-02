@@ -10,6 +10,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-// Route::get('/home', function () {
-//     return view('dashboard.layouts.app');
-// })->name('home');
+Route::get('/dashboard/menu', function () {
+    return view('dashboard.menu.index');
+})->name('menu');
